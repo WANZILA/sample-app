@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+
+	<script>
+	const elements = [
+			'Hydrogen',
+			'Helium',
+			'Lithium',
+			'Beryllium'
+	];
+			
+	//console.log(materials.map(material => materials.length));
+
+	//using the arrow array syntax 
+	// elee = elements.map((element) => {
+	// return element.length})
+
+	//elee = elements.map( element => element.length);
+
+    // elee =elements.map(({length}) => length);
+
+    // console.log(elee);
+
+
+//invoked through call or apply
+
+	// var adder = {
+	// 	base:1,
+	// 	add: function(a){
+	// 		var f = v => v +this.base;
+	// 		return f(a);
+	// 	},
+	// 	addThruCall: function(a){
+	// 		var f = v => v + this.base;
+	// 		var b = {
+	// 			base: 2
+	// 		};
+	// 		return f.call(b,a);
+	// 	}
+	// }
+	// console.log(adder.add(1));
+	// console.log(adder.addThruCall(1));
+
+
+
+//no binding of arguments
+	//rs
+	// var arguments = [1,2, 3];
+	// var arr = () =>  arguments[0];
+	// console.log( arr());
+
+	// function foo(n) {
+	// 	// var f = () =>  arguments[1] + n;
+	// 	// return f();
+	// 	var f =(...args) => args[0] + n;
+	// 	return f(10);
+	// }
+	// console.log( foo(1));
+
+
+//Returning object literals
+	// 
+	
+//line breaks
+
+	var func =(a, b, c) => 
+	1;
+
+	console.log( func());
+
+
+	</script>
+
+</head>
+
+<body>
+<!-- 
+	(single parameter) => {expression}
+	singleParameter => expression
+
+	() => ({foo:bar})
+
+	() => ([a,b]= [1,2], [x,c]=[3,6] )
+
+ -->
+</body>
